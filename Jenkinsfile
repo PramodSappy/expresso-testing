@@ -14,7 +14,7 @@ pipeline {
       }
     }
     stage('Build artifacts') {
-      agent { label "GRADLE" }
+      agent any
       steps {
         script {
           try {
