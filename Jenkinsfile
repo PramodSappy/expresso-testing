@@ -18,7 +18,7 @@ pipeline {
       steps {
         script {
           try {
-            sh '$GRADLE4/bin/gradle clean assemble'
+            sh 'gradle clean assemble'
           } catch (e) {
             echo 'Build Failed....'
             throw e
@@ -27,11 +27,11 @@ pipeline {
       }
     }
     stage('Test') {
-      agent { label "GRADLE" }
+      agent any
       steps {
         script {
           try {
-            sh '$GRADLE4/bin/gradle test'
+            sh 'gradle test'
           } catch (e) {
              echo 'Build Failed....'
             throw e
