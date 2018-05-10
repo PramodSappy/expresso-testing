@@ -14,7 +14,13 @@ node {
         sh "gcloud config set project expresso-testing"
 
         sh "gcloud auth login"
-        sh "gcloud firebase test android run --project ${env.gcloud_project_id} --app app/build/outputs/apk/app-debug.apk --test app/build/outputs/apk/app-debug-androidTest.apk --device model=Nexus6,version=22,locale=en,orientation=portrait"
+
+        sh " gcloud firebase test android run \
+              --type robo \
+              --app app-debug.apk \
+              --device model=Nexus6,version=21,locale=en,orientation=portrait  \
+              --device model=Nexus7,version=19,locale=fr,orientation=landscape \
+              --timeout 90s"
 
 
     stage 'Build Release'
