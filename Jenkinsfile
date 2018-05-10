@@ -5,10 +5,6 @@ node {
         sh "./gradlew clean"
 
 
-    stage 'Unit Test'
-        sh "./gradlew test"
-
-
     stage 'Assemble Android Test'
         sh "./gradlew assembleDebug"
         sh "./gradlew assembleDebugAndroidTest"
