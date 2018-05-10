@@ -6,14 +6,11 @@ node {
 
 
     stage 'Assemble Android Test'
-        sh "./gradlew assembleDebug"
         sh "./gradlew assembleDebugAndroidTest"
 
 
     stage 'Cloud Test Lab'
-        sh "gcloud config set project expresso-testing"
-
-        sh "gcloud auth login"
+        sh "gcloud auth activate-service-account --key-file =./expresso-testing-7bb5e3c13011.json"
 
         sh " gcloud firebase test android run \
               --type instrumentation \
