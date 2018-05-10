@@ -17,7 +17,7 @@ node {
 
         sh " gcloud firebase test android run \
               --type robo \
-              --app app-debug.apk \
+              --app ${buildDir}/output/apk/debug/app-debug.apk \
               --device model=Nexus6,version=21,locale=en,orientation=portrait  \
               --device model=Nexus7,version=19,locale=fr,orientation=landscape \
               --timeout 90s"
