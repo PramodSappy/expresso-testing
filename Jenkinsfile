@@ -7,7 +7,7 @@ node {
 
     stage 'Assemble Android Test'
         sh "./gradlew assembleDebug"
-        sh "./gradlew assembleDebugAndroidTest"
+
 
 
     stage 'Cloud Test Lab'
@@ -17,7 +17,7 @@ node {
 
         sh " gcloud firebase test android run \
               --type robo \
-              --app ${buildDir}/output/apk/debug/app-debug.apk \
+              --app /app/output/apk/debug/app-debug.apk \
               --device model=Nexus6,version=21,locale=en,orientation=portrait  \
               --device model=Nexus7,version=19,locale=fr,orientation=landscape \
               --timeout 90s"
