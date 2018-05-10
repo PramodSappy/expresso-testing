@@ -11,9 +11,8 @@ node {
 
 
     stage 'Cloud Test Lab'
-        sh "gcloud config set project expresso-testing"
+        sh "gcloud auth activate-service-account --key-file /Users/e067411/dev/workspace/DXP-Mobile/expresso-testing-7bb5e3c13011.json.json"
 
-        sh "gcloud auth login"
 
         sh "gcloud firebase test android run --project ${env.gcloud_project_id} --app app/build/outputs/apk/app-debug.apk --test app/build/outputs/apk/app-debug-androidTest.apk --device model=Nexus6,version=22,locale=en,orientation=portrait"
 
