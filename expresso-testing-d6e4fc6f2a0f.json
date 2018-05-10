@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "expresso-testing",
+  "private_key_id": "d6e4fc6f2a0f7d207ad4a6fa1b36154c6e82689d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCCqbh8ddGPKCRO\n9SZw5Gv7l2VdMo6bANumSrwoFGLtUbjw6Lm6DMNwP6LbBVHQ4Md6Ibyz7SXzjiR+\nCf233CgJDyZO6O2Z+wKfPjAUwhvQ2kfY3yez531cX446oCtW0iIVNHIW8c40scV+\n8G+ee2txPSK+HyCJrpExvZzQuYqvIl5EXefLNfiWcdvglaRUwDNADvFQJlqvWV5l\nkLwu1dJGpZxRtgGS8wucM5F34HB1h+yaNfNh16DBmtHxVnHzOqrxPFht1cKJHZRO\nqcqjPO41iIw6XPv5EfcXeN4hdlHEfZFPB19ayoFMUE4Hp9EbUytCDyU0ya3jbSdF\ntg7A+XYlAgMBAAECggEAAapvPyrzWntdByKp9Et9Mu5prOf9mG1I35RZVLt5zWO6\n01tsLrqF7VLqXRdyxRJwiJaQhMyzrKi1v2OaN/NXEVJ/nwbqLIneLTCKRWF6IE4A\nF3w00d7UIs7XDdlH5Cn2pEWQZMl9Yv+XMHiZO7CAHKf2Xu0fqZGvqS4tJx4ObhAh\n8KqxtzHOzrGlmd4kvonlS1yeCKSOjKO2ty96HWCI7wIMUEQhiXD47Ppe6d25CiX+\nAKYd+cNk2DDTpFyw2lWBSTQ5KSrUhhw4QpPawQhAnwZxgCPq1vL3LrQjtgeqZX3l\nzo3X+sB21d4GdXOJF0WE6wcHNSAyF4Yzgyc+DNWbWwKBgQC4pNjMovi9tnrUIlTv\nPCSAZIwqlEJXPVvd2OnEvoc6hRdlowOBfXS7+iizGKraSWlEilOFqEasNXFtyaKu\nqD4a0dI9pbNh9SfngqswQhqhpy1uwQPlfUiXQ1Lx61V6WL/8o4+xwvNXjYBNzdjx\n2iQbUwixxFHIlTZ6z1MizXJfBwKBgQC1KHDrZHC0hDYPF6XJQ07+63iLNkVkDizi\nyFeEH17j4lilz3/Z1oZRfJIGl2R+xZ46LFflaXtSILcANbHbzC3bbxOWS7y+9+z7\nc4/jzDhQJdpDv7FWkBGlLV222GgaUl9FLEOUSRywnU3VLu65oEnQfnA9xYZiGPZ4\nklginumKcwKBgFNceVTKLyrXe9TSOy5XJNOikXWXwevJE/SwvbnJmxvcgpesZSTN\nEyra4g0ZkelDQ3diTBsHwgB1kGRUqFHaO0+4cwbKDJapK/7li4waDBP3eheKpMuz\nKFbCWmxGJy05bFQPNAy5S0u34rk9ujhWl/6OGlrHm3THiPUhLROFVaF5AoGBAIvd\nC0FRrIpSQQJp+X9nzgeWeNzSK8TSBOmaT6ccKUC7skFh8I2YyN8E1CDupZIStNSp\nA7uFMsb3pxIsYoMWIpl2KqMxGio+c+K3F/KB60BF2TvRNfNlC5qBagcPEWCxFAjt\n4ccMo2/gIwViVMFP9W1ZEQNACz6Vk0UHh7BDDH/tAoGAD0ZCPzY7Oc2MRPvIp7ss\nxWRz0GK2fuxwvqEFINBIk36vVQIPmE4xlWNDcrvMAx3Nr9qR2srfpV19QYXVWD4H\nbhtQ5EfAgMSZ7ChJnBrxoE+aIqlEPhok+tZIYFXj4kUjBmrwwsQt08w2qmr1xcaq\nRP2V0Ks9iTyeFhKj5LSfuBI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "myservice@expresso-testing.iam.gserviceaccount.com",
+  "client_id": "106480998528523964741",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myservice%40expresso-testing.iam.gserviceaccount.com"
+}
