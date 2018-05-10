@@ -18,7 +18,7 @@ node {
         sh " gcloud firebase test android run \
               --type instrumentation \
               --app **/build/outputs/apk/debug/*.apk \
-              --test **/build/outputs/apk/androidTest/*.apk \
+              --test **/build/outputs/apk/androidTest/debug/*.apk \
               --device model=Nexus6,version=21,locale=en,orientation=portrait  \
               --device model=Nexus7,version=19,locale=fr,orientation=landscape"
 
