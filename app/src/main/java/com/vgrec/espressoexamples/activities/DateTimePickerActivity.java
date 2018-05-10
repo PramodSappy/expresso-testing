@@ -9,10 +9,11 @@ import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.R;
 
 import java.util.Calendar;
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class DateTimePickerActivity extends AppCompatActivity {
 
     private TextView statusTextView;

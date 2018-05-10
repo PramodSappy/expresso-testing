@@ -28,7 +28,9 @@ dependencies {
     implementation 'com.android.support:design:27.1.0'
 
     // Add this line
-    implementation 'com.google.firebase:firebase-core:12.0.1'
+    implementation 'com.google.firebase:firebase-core:15.0.2'
+//    implementation 'com.google.firebase:firebase-core:12.0.1'
+    implementation 'com.google.firebase:firebase-perf:15.2.0'
 
     // Testing dependencies
     androidTestImplementation 'com.android.support.test:testing-support-lib:0.1'
@@ -51,3 +53,4 @@ android {
 }
 // Add to the bottom of the file
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.firebase-perf'

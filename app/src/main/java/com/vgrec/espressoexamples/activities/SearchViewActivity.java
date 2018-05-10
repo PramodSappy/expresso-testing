@@ -8,9 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.R;
 
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class SearchViewActivity extends AppCompatActivity {
 
     @Override

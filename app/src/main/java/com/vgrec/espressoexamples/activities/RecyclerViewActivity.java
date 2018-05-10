@@ -5,9 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.R;
 import com.vgrec.espressoexamples.adapter.RecyclerBooksAdapter;
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class RecyclerViewActivity extends AppCompatActivity {
 
     @Override

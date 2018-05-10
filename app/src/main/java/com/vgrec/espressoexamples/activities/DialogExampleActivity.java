@@ -7,8 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.R;
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class DialogExampleActivity extends AppCompatActivity {
 
     private TextView statusTextView;

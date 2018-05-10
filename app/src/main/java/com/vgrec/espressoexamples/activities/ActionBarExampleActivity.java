@@ -9,9 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.R;
 
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class ActionBarExampleActivity extends AppCompatActivity {
 
     private TextView statusTextView;

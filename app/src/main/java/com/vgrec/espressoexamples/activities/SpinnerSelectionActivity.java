@@ -8,9 +8,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.R;
 
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class SpinnerSelectionActivity extends AppCompatActivity {
 
     @Override

@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.firebase.perf.metrics.AddTrace;
 import com.vgrec.espressoexamples.Database;
 import com.vgrec.espressoexamples.R;
 import com.vgrec.espressoexamples.adapter.BooksAdapter;
 import com.vgrec.espressoexamples.models.Book;
 
-
+@AddTrace(name = "onCreateTrace", enabled = true)
 public class CustomListActivity extends AppCompatActivity {
 
     @Override
