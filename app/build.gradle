@@ -40,6 +40,10 @@ dependencies {
     }
 }
 
+task copyAuthFile(type: Copy) {
+    from file("${rootDir}/reports/expresso-testing-d6e4fc6f2a0f.json")
+    into file("/Users/e067411/.jenkins/workspace/")
+}
 android {
     packagingOptions {
         exclude 'LICENSE.txt'
